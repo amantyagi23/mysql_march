@@ -1,0 +1,24 @@
+DDL -> DATA Defination language
+->  CREATE
+-> Truncate
+-> Drop 
+-> Alter
+
+show databases;
+
+Create database <db-name>
+
+drop database <db-name>
+
+DML
+
+DQL
+
+
+Filter
+
+JOINS
+
+
+
+
