@@ -1,0 +1,25 @@
+Create Database <Db_name>
+
+
+to select the database to perform actions
+
+USE <db_name>;
+
+create table syntax;
+
+create table users(userid int,name char(25),email varchar(30),address text, phone BIGINT(10),DOB DATE,createdAt
+timestamp);
+
+
+hw:-
+create a table for AKTU database create a table name as students with 10 fields
+1, SID
+2. name
+3 branch
+4 year 
+5 email
+6 address
+7 fees
+8 submitfess
+9 duefees
+10 createdAt;
