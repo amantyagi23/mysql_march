@@ -1,0 +1,101 @@
+DDL - data defination language 
+
+data existance 
+
+Alter command -> DDL
+
+1. ADD columns in exist table
+
+syntax ->  ALTER TABLE <table_name> ADD col_name datatype;
+
+example :- ALTER table students ADD createdAt datetime;
+
+
+2. Drop column from exist table
+
+syntax -> ALTER TABLE <table_name> DROP COLUMN <column_name>; 
+
+
+3. To Update Modify the exist table
+
+syntax -> ALTER TABLE <table_name> MODIFY COLUMN <column_name> datetype;
+
+example:- ALTER TABLE students MODIFY COLUMN year year;
+
+
+
+DQL - data query language
+
+to retrive data 
+
+SELECT -> read from table
+
+simple ,basic syntax ->  select * from <table_name> 
+
+advance syntax -> select col_name1,col_name_2,col_name3 from table;
+
+
+
+
+
+
+DML - Data manipulation language
+
+already existance action perform 
+
+table data insert, update, delete
+
+
+INSERT
+
+simple insert 
+
+syntax ->  INSERT INTO <table_name> values("col_1",col_2,"col_3",......"upto nth col");
+
+advance -> INSERT INTO <table_name>(sid,name) values("value1",value);
+
+
+
+Constraints
+
+
+1. NOT NULL
+
+syntax -> create table students(sid int not null,name varchar(30) not null,branch enum("cse","civil","me","iot"),age tinyInt,year char(4));
+
+
+2 Default 
+
+syntax -> create table students(sid int not null,name varchar(30) not null,branch enum("cse","civil","me","iot"),age tinyInt,year year default 2024);
+
+
+
+
+
+HW -> 
+
+create a movie table with 7 fields 
+
+mid int 
+title varchar
+description text
+released year
+actor name
+category enum action, 
+CreatedAt timestamp
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
