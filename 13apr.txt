@@ -1,0 +1,24 @@
+What is primary key?
+
+
+
+CREATE TABLE registers (
+    ->     rid INT AUTO_INCREMENT PRIMARY KEY,
+    ->     name VARCHAR(30),
+    ->     email VARCHAR(30) UNIQUE,
+    ->     phone BIGINT(10) UNSIGNED UNIQUE,
+    ->     branch ENUM('IOT', 'CSE', 'CE', 'IT', 'AI') DEFAULT 'CSE',
+    ->     date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    -> );
+
+
+foreign key syntax
+
+create table tests(tid int auto_increment primary key,rid int,testtype enum("low","mid","high") ,marks tinyint,foreign key(rid) references registers(rid));
+
+
+create Company db , employee table eid,name,department,joining date
+
+table empdetails (phone,email,salary,address,did,eid);
+
+each table should contain 10 rows
