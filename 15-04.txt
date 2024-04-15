@@ -1,0 +1,37 @@
+update 
+
+synatx:- update table_name set column_name = "value";
+
+to change every column value
+
+synatx:- update table_name set column_name = "value" where column_name = "value";
+
+delete 
+
+syntax :- delete from table_name where column_name = value;
+
+
+
+
+
+
+DQL :- 
+
+
+Command :- Select 
+80% select commands
+Select is used for data reterive(read)
+
+
+basic read;
+
+
+specific read
+filter
+aggregate function
+join 
+date function
+string function
+math function 
+window function
+
