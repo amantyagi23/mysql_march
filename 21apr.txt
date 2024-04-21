@@ -1,0 +1,63 @@
+Select 
+filter in select to show data 
+
+select * from table_name;
+
+Write a query to find data of actors btw 15 to 57 actor_id.
+
+select * from actor where actor_id >= 15 AND actor_id <=57;
+
+
+write a query to find film which are in category comdey;
+
+
+
+Write a query to find the count of film which belongs to action category;
+
+
+aggregate function -> 
+1.count
+2.sum
+3.min
+4.max
+5.avg
+
+syntax -> select count(column_name) from table conditions;
+
+
+
+
+limit and offset
+
+limit -> it is used to limit the return values;
+
+offset -> to return value after a given ratio
+
+
+Retrieve the total number of actors in the actor table.
+Display the number of films in each category. Include the category name and the count of films, ordered by the count of films in descending order.
+Find the average rental duration for all films.
+Show the total revenue generated from film rentals. Include the sum of rental payments from the payment table.
+List the top 10 most rented films along with their rental count.
+Display the average replacement cost of films for each rating category (e.g., G, PG, PG-13, etc.).
+Find the total number of rentals for each customer. List the customer ID and their total number of rentals, ordered by the total number of rentals in descending order.
+Show the total amount spent by each customer on rentals. List the customer ID and their total rental payments, ordered by the total amount spent in descending order.
+Find the average length of films in each rating category. Include the rating category and the average length of films, ordered by rating.
+Display the top 10 customers who spent the most on rentals. Include the customer ID and the total amount spent, ordered by the total amount spent in descending order.
+
+
+
+What is the shortest film in terms of length?
+What is the longest film in terms of length?
+What is the average rental rate for films released in 2006?
+select avg(rental_rate) from film where year = 2006;
+List the first 10 customers in alphabetical order by last name.
+List the customers from the 11th to the 20th in alphabetical order by last name.
+List categories with more than 10 films.
+
+
+order by
+
+syntax->  select * from table_name order by column_name ASC | DESC;
+
+Group By 
