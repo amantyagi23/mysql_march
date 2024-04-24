@@ -1,0 +1,27 @@
+It join table on the basic of keys
+primary, foreign key,unique key
+
+
+Join -> 5 Types
+
+1 inner join 
+2 Left join
+3 right join
+4 full join
+5 self join
+
+
+Retrieve the rental ID, rental date, return date, and customer ID for all rentals from the rental table, along with the first name and last name of the customers from the customer table.
+
+command
+total num of rows
+ans
+
+Retrieve the film title and rental date for all rentals from the rental table, along with the film description from the film table.
+
+
+Retrieve the film title, rental date, and return date for all rentals from the rental table, along with the customer first name and last name from the customer table.
+
+Retrieve the title and rental duration (in days) of all films from the film table, along with the film category names from the category table.
+
+Retrieve the film title, rental date, and return date for all rentals from the rental table, along with the store ID from the rental table and the store location from the store table.
